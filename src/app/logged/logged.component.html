@@ -1,0 +1,6 @@
+<app-barrasuperior  (enviar)="cambiaron($event)"></app-barrasuperior>
+<app-barralateral (enviar)="cambiaron($event)" [on]="on"></app-barralateral>
+<div (click)="ocultar()" class="cuerpo">
+    <router-outlet ></router-outlet>
+</div>
+

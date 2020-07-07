@@ -1,0 +1,33 @@
+<nav class="navbar navbar navbar-light fondo ">
+    <button class="navbar-toggler margen" type="button" (click)="click()">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar">
+        <ul class="navbar-nav navbar-brand">
+            <div class="form-inline my-2 my-lg-0">
+                <ul class="nav">
+                    <li class="cabeza"><button class="btn btn-outline-successs" (click)="opensalir()" type="submit">
+                            <img class="image rounded-circle dimensiones" /></button>
+                        <ul class="a" [ngClass]="{'b':on}">
+                            <li class="contorno">
+                                <div class="contenido">
+                                    <div class="titulo">{{ user.username}}</div>
+                                    <div class="subtitulo">{{ user.mail }}</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="contenido out">
+                                    <button class="btn btn-danger btn-block" (click)="logout()">
+                                        
+                                        Cerrar Sesión
+                                    </button>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </ul>
+    </div>
+</nav>

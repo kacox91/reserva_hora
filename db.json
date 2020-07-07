@@ -1,0 +1,73 @@
+{
+  "horas": [
+    {
+      "id": "number",
+      "motivo_apertura_id": "string",
+      "clasificacion": "number",
+      "descripcion": "string",
+      "fecha_inicio": "Date",
+      "fecha_cierre": "Date",
+      "estado": "string",
+      "nivel_riesgo": "number"
+    }
+  ],
+  "usuario": [
+    {
+      "id": 1,
+      "username": "string",
+      "password": "string",
+      "nombre": "string",
+      "apellido": "string",
+      "mail": "string",
+      "telefono": "string",
+      "Tipo": "Administrador"
+    },
+    {
+      "firstName": "hola",
+      "lastName": "hola",
+      "username": "hola",
+      "password": "holaho",
+      "mail": "holah",
+      "phone": "hola",
+      "id": 3
+    },
+    {
+      "firstName": "chao",
+      "lastName": "chao",
+      "username": "chao",
+      "password": "chaoch",
+      "mail": "chao",
+      "phone": "chao",
+      "id": 4
+    },
+    {
+      "firstName": "pepe",
+      "lastName": "pepe",
+      "username": "pepe",
+      "password": "pepepe",
+      "mail": "pepe",
+      "phone": "pepe",
+      "id": 5
+    },
+    {
+      "firstName": "pepe",
+      "lastName": "pepe",
+      "username": "pepep",
+      "password": "pepepe",
+      "mail": "pepepe",
+      "phone": "pepe",
+      "id": 6
+    },
+    {
+      "firstName": "pipo",
+      "lastName": "pipo",
+      "username": "pipo",
+      "password": "pipopi",
+      "mail": "pipo",
+      "phone": "pipo",
+      "tipo": "ucliente",
+      "id": 7
+    }
+
+  ]
+}

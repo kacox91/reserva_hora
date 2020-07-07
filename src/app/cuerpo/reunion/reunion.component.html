@@ -1,0 +1,46 @@
+<div class="container container-p">
+    <div class="row hc">
+        <div class="col-12  pb">
+            <div class="caja blanca nombre">
+                <h1 class="txtnombre">
+                    Agendar
+                    <i class="but" *ngIf="button"></i>
+                </h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 nopr">
+                    <div class="conteiner caja blanca">
+                        <div class="row hc">
+                            <div class="col-12">
+                                <div>
+                                    <ul>
+                                        <li>
+                                            <h2>Cliente</h2>
+                                        </li>
+                                        <li>
+                                            <select class="browser-default custom-select" name="Seleccionar una opcion"
+                                                readonly [attr.disabled]="desbool">
+                                                <option value="null">{{select}}</option>
+                                            </select>
+                                        </li>
+                                        <li>
+                                            Fecha:
+                                            <input type="date" id="start" name="trip-start"
+                                                min="2018-01-01 " max="2018-12-31" [attr.value]="dia"  [attr.readonly]="diaread">
+                                        </li>
+                                        <li>
+                                            Hora:
+                                            <input type="time" value="12:12" min="00:00" max="24:00" [attr.value]="hora"  [attr.readonly]="horaread">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
